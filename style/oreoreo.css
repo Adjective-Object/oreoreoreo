@@ -55,29 +55,29 @@ body {
 }
 
 .biscuit.filling + .biscuit.cookie .segment:first-of-type {
-  background-image: url("/img/biscuit-1-bottom.png");
+  background-image: url("../img/biscuit-1-bottom.png");
 }
 
 .biscuit.cookie .segment:first-of-type {
-  background-image: url("/img/biscuit-1-top.png");
+  background-image: url("../img/biscuit-1-top.png");
 }
 
 .biscuit.cookie .segment {
-  background-image: url("/img/biscuit-2.png");
+  background-image: url("../img/biscuit-2.png");
   margin-top: -45px;
 }
 
 .biscuit.cookie .segment:nth-of-type(2) {
-  background-image: url("/img/biscuit-2.png");
+  background-image: url("../img/biscuit-2.png");
   margin-top: -35px;
 }
 
 .biscuit.cookie .segment:last-of-type {
-  background-image: url("/img/biscuit-3.png");
+  background-image: url("../img/biscuit-3.png");
 }
 
 .biscuit.filling .segment {
-  background-image: url("/img/filling-1.png");
+  background-image: url("../img/filling-1.png");
 }
 
 .biscuit.cookie + .biscuit.filling {
@@ -85,12 +85,12 @@ body {
 }
 
 .biscuit.filling .segment + .segment {
-  background-image: url("/img/filling-3.png");
+  background-image: url("../img/filling-3.png");
   margin-top: -45px;
 }
 
 .biscuit.filling .segment:nth-of-type(2) {
-  background-image: url("/img/filling-2.png");
+  background-image: url("../img/filling-2.png");
   margin-top: -50px;
 }
 
