@@ -107,3 +107,22 @@ body {
   border: 1px solid #ee0000;
   background-color: 1px solid #cc7777;
 }
+
+.floating-contact-info {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0.5em;
+}
+
+.floating-contact-info a {
+  font-family: sans-serif;
+  display: block;
+  text-decoration: none;
+  padding: 0.25em;
+}
+
+.floating-contact-info a,
+.floating-contact-info a:visited {
+  color: #58c9b9;
+}
