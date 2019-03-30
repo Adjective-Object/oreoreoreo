@@ -1,0 +1,109 @@
+html,
+body,
+.oreoreo-container {
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.oreoreo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.oreoreo-display,
+.oreo-error-host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.oreoreo-input {
+  display: flex;
+  justify-content: center;
+}
+
+.oreoreo-input input[type="text"] {
+  text-align: center;
+}
+
+.biscuit .segment {
+  /* So the inline styles work*/
+  position: relative;
+  width: 75px;
+  height: 50px;
+  background-position: fit;
+  background-repeat: no-repeat;
+}
+
+.biscuit.filling + .biscuit.cookie {
+  margin-top: -2px;
+}
+
+.biscuit.filling + .biscuit.cookie .segment:first-of-type {
+  background-image: url("/img/biscuit-1-bottom.png");
+}
+
+.biscuit.cookie .segment:first-of-type {
+  background-image: url("/img/biscuit-1-top.png");
+}
+
+.biscuit.cookie .segment {
+  background-image: url("/img/biscuit-2.png");
+  margin-top: -45px;
+}
+
+.biscuit.cookie .segment:nth-of-type(2) {
+  background-image: url("/img/biscuit-2.png");
+  margin-top: -35px;
+}
+
+.biscuit.cookie .segment:last-of-type {
+  background-image: url("/img/biscuit-3.png");
+}
+
+.biscuit.filling .segment {
+  background-image: url("/img/filling-1.png");
+}
+
+.biscuit.cookie + .biscuit.filling {
+  margin-top: -48px;
+}
+
+.biscuit.filling .segment + .segment {
+  background-image: url("/img/filling-3.png");
+  margin-top: -45px;
+}
+
+.biscuit.filling .segment:nth-of-type(2) {
+  background-image: url("/img/filling-2.png");
+  margin-top: -50px;
+}
+
+.biscuit.filling + .biscuit.filling {
+  margin-top: -40px;
+}
+
+.biscuit.cookie + .biscuit.cookie {
+  margin-top: -8px;
+}
+
+.compilation-error {
+  margin-top: 10px;
+  border: 1px solid #ee0000;
+  background-color: 1px solid #cc7777;
+}

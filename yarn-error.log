@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add phm
+
+PATH: 
+  /home/adjective/.nix-profile/bin:/home/adjective/.local/bin:/home/adjective/bin:/usr/local/bin:/usr/bin:/bin:./node_modules/.bin/:/home/adjective/Software/flutter/bin:/home/adjective/Software/flutter/bin/cache/dart-sdk/bin:/home/adjective/Software/android-sdk/platform-tools/:/usr/local/sbin:/usr/sbin:/var/lib/snapd/snap/bin:./node_modules/.bin/:/home/adjective/Software/flutter/bin:/home/adjective/Software/flutter/bin/cache/dart-sdk/bin:/home/adjective/Software/android-sdk/platform-tools/
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/phm: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

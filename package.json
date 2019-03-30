@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "ohm-js": "^0.14.0"
+  },
+  "devDependencies": {
+    "ohm-loader": "^0.0.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

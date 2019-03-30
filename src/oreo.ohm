@@ -1,0 +1,9 @@
+CookieGrammar {
+	
+    CookieStack = (Cookie | Cream)*
+
+    Cookie = "o" ("r" ~ "e")*
+
+	Cream = "r" "e"+
+
+}
