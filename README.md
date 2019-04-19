@@ -14,6 +14,8 @@ webpack-dev-server
 git checkout master
 webpack
 git branch -f gh-pages HEAD
+git checkout gh-pages
+git add dist
 git commit -m "build"
 git push --force
 ```
