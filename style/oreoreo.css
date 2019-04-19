@@ -113,16 +113,39 @@ body {
   bottom: 0;
   right: 0;
   padding: 0.5em;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  user-select: none;
 }
 
 .floating-contact-info a {
-  font-family: sans-serif;
   display: block;
   text-decoration: none;
   padding: 0.25em;
+  text-align: right;
+  font-family: sans-serif;
 }
 
 .floating-contact-info a,
 .floating-contact-info a:visited {
   color: #58c9b9;
+}
+
+.contact-info-toggle {
+  display: none;
+}
+
+.contact-info-toggle-label {
+  color: #58c9b9;
+  display: block;
+  font-size: 1.25em;
+}
+
+.floating-contact-info .contact-info-toggle ~ a {
+  display: none;
+}
+
+.floating-contact-info .contact-info-toggle:checked ~ a {
+  display: block;
 }
